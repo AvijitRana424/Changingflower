@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nature Beauty</title>
+	<meta charset="utf-8">
+	<meta lang="en-US">
+  <link rel="icon" href="ico.png" sizes="16x16">
+  <style>
+    body{
+
+
+      background-color: #FBDA61;
+      background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
+    }
+    
+    #main{
+      height: 420px;
+      width :575px;
+      float: left;
+      box-sizing: border-box;
+      border:8px groove cyan;
+      margin-left: 27%;
+    }
+
+    #first{
+      width: 142px;
+      height: 124px;
+      border:4px groove #AA1565;
+      clear: left;
+      float: left;
+
+      box-sizing: border-box;
+      margin-left:27%;
+      cursor: pointer;
+    }
+     #sec{
+      width: 142px;
+      height: 124px;
+      border:4px groove #AA1565;
+      
+      float: left;
+      margin-left: 2px;
+      cursor: pointer;
+
+      box-sizing: border-box;
+      
+    }
+     #thir{
+      width: 142px;
+      height: 124px;
+      border:4px groove #AA1565;
+      cursor: pointer;
+      
+      float: left;
+     margin-left: 2px;
+
+      box-sizing: border-box;
+      
+    }
+
+     #four{
+      width: 142px;
+      height: 124px;
+      border:4px solid #AA1565;
+      
+      float: left;
+      margin-left: 2px;
+      cursor: pointer;
+
+      box-sizing: border-box;
+      
+    }
+
+
+
+  </style>
+
+  <script>
+  
+   function fir()
+   {
+     var x = document.getElementById("show");
+     x.src = "pic11.jpg";
+   } 
+
+   function sec()
+   {
+    var y = document.getElementById("show");
+    y.src = "pic5.jpg"
+   }
+   
+   function thir()
+   {
+    var y = document.getElementById("show");
+    y.src = "pic2.jpg"
+   }
+   function four()
+   {
+    var y = document.getElementById("show");
+    y.src = "pic31.jpg"
+   }
+
+
+
+  </script>
+	
+
+	
+</head>
+<body>
+	  <div id="main">
+         <img src="pic41.jpg" alt="mainpic" width="560px"  height="405px" id="show">
+    </div>
+    <div id="first" onclick="fir()">
+        <img src="s1.jpg" alt="fir" width="134px"  height="116px">
+    </div>
+    <div id="sec" onclick="sec()">
+        <img src="s2.jpg" alt="sec" width="134px"  height="116px">
+    </div>
+    <div id="thir" onclick="thir()">
+        <img src="s3.jpg" alt="thir" width="134px"  height="116px">
+    </div>
+    <div id="four" onclick="four()">
+        <img src="s4.jpg" alt="last" width="134px"  height="116px">
+    </div>
+</body>
+</html>
